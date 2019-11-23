@@ -1,0 +1,14 @@
+{
+	"name": "reflex-starter",
+	"version": "1.0.0",
+	"description": "A starter template for Reflex ML projects.",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx lite-server"
+	},
+	"dependencies": {
+		"@types/node": "^12.11.5",
+		"reflex-ml-node": "^1.4.0",
+		"reflex-ss": "^1.0.1"
+	}
+}

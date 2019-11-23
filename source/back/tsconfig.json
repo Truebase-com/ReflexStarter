@@ -1,0 +1,12 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"target": "esnext",
+		"outFile": "../../build/back/back.js",
+		"rootDir": "."
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"references": []
+}

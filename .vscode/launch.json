@@ -1,0 +1,22 @@
+{
+	"version": "0.2.0",
+	"configurations": [{
+		"type": "chrome",
+		"request": "launch",
+		"name": "Debug Front End",
+		"sourceMaps": true,
+		"preLaunchTask": ""
+	},
+	{
+		"type": "node",
+		"request": "launch",
+		"name": "Debug Back End",
+		"sourceMaps": true,
+		"program": "${workspaceFolder}/build/back/back.js", 
+		"cwd": "${workspaceFolder}",
+		"args": [
+			
+		],
+		"internalConsoleOptions": "openOnSessionStart"
+	}]
+}

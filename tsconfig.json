@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "system",
+		"moduleResolution": "node",
+		"composite": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"incremental": true,
+		"stripInternal": true,
+		"rootDir": "./",
+		"lib": [
+			"dom",
+			"esnext",
+			"esnext.array",
+			"esnext.asynciterable"
+		]
+	},
+	"include": [],
+	"references": [
+		{ "path": "source/back" },
+		{ "path": "source/front" }
+	]
+}
